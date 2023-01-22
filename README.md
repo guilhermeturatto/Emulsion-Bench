@@ -5,6 +5,7 @@ This project is about the control of actuators in an experimental bench for emul
 
 <p align="center">
 <img src="https://i.imgur.com/wObW6H1.png" alt="drawing" width="1000"/>
+<img src="https://i.imgur.com/cmfmdeo.png" alt="drawing" width="700"/>
 </p>
 <!-- ![Emulsion-Bench-Project](https://i.imgur.com/wObW6H1.png) -->
 
