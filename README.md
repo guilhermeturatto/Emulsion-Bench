@@ -21,7 +21,7 @@ The diagram below shows the communications and signals present in the bench.
 
 <!-- ![Emulsion-Bench-Signals](https://imgur.com/ulCbK7X.png) -->
 
-- The hardware scheme used in conjunction with the microcontroller is presented below.
+* The schematic of the hardware used in conjunction with the microcontroller is presented below.
 
 <p align="center">
 <img src="https://imgur.com/6xvSWnQ.png" alt="drawing" width="1000"/>
