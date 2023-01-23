@@ -8,7 +8,7 @@ This project is about the control and monitoring of an experimental bench for st
 </p>
 
 ## Design and Implementation
-The user controls and monitors the experiments on a computer through LabVIEW, which communicates with the CompactDAQ for data acquisition and the Tiva-C microcontroller to send commands.
+The user controls and monitors the experiments on a computer through [LabVIEW](https://www.ni.com/pt-br/support/downloads/software-products/download.labview.html#460283), which communicates with the [CompactDAQ](https://www.ni.com/pt-br/shop/compactdaq.html) for data acquisition and the [Tiva-C](https://www.ti.com/tool/EK-TM4C123GXL?utm_source=google&utm_medium=cpc&utm_campaign=epd-null-null-prodfolderdynamic-cpc-pf-google-wwe_int&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gclid=Cj0KCQiA_bieBhDSARIsADU4zLe4EC0d31GO48MGUNpbr3e5-KMYJV8Ui7qZ0HeW3qAOminWc6kiey0aAsx3EALw_wcB&gclsrc=aw.ds) (TM4C123GH6PM) microcontroller to send commands.
 
 The diagram below shows the communications and signals present in the experimental bench.
 
