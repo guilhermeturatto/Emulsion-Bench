@@ -1,31 +1,47 @@
 # Emulsion Bench
 
-This project is about the control of actuators in an experimental bench for emulsions between water and crude oil at the
+This project is about the control and monitoring of an experimental bench for studies of emulsions between water and crude oil at the
 [T2F (Thermal Flow Fluid Group)](https://t2f.ufsc.br/eng/index_eng.html) laboratory of [UFSC (Universidade Federal de Santa Catarina)](https://en.ufsc.br/). 
 
 <p align="center">
-<img src="https://i.imgur.com/wObW6H1.png" alt="drawing" width="1000"/>
-<img src="https://i.imgur.com/cmfmdeo.png" alt="drawing" width="700"/>
+<img src="https://i.imgur.com/esLbaOC.png" alt="drawing" width="1000"/>
 </p>
-<!-- ![Emulsion-Bench-Project](https://i.imgur.com/wObW6H1.png) -->
 
-* The experimental bench must create different flow patterns and emulsions between water and crude oil, and it's composed of several measuring instruments and actuators.
-For data acquisition, flow meters, pressure and temperature sensors are used with the National Instruments CompactDAQ (Data Acquisition System).
-To regulate the experiments, an electro-pneumatic control valve is employed in conjunction with two motor pumps, controlled by frequency inverters.
+## Design and Implementation
+The user controls and monitors the experiments through LabVIEW on a computer, which communicates with the CompactDAQ for data acquisition and the Tiva-C microcontroller to send commands.
 
-* The user controls the experiments through LabVIEW on a computer, which communicates with the CompactDAQ for data acquisition and with the microcontroller to send commands.
-The diagram below shows the communications and signals present in the bench.
+The diagram below shows the communications and signals present in the experimental bench.
 
 <p align="center">
-<img src="https://imgur.com/ulCbK7X.png" alt="drawing" width="1000"/>
+<img src="https://imgur.com/Z9Ih7F7.png" alt="drawing" width="1000"/>
 </p>
 
-<!-- ![Emulsion-Bench-Signals](https://imgur.com/ulCbK7X.png) -->
 
-* The schematic of the hardware used in conjunction with the microcontroller is presented below.
+### UML Diagrams
+
+* #### Use Case
 
 <p align="center">
-<img src="https://imgur.com/6xvSWnQ.png" alt="drawing" width="1000"/>
+<img src="https://imgur.com/qEGRoH0.png" alt="drawing" width="500">   <img src="https://imgur.com/g2qIJmG.png" alt="drawing" width="500">
 </p>
 
-<!-- ![Emulsion-Bench-Hardware](https://imgur.com/6xvSWnQ.png) -->
+* #### Class Diagram (Firmware Tiva-C)
+
+<p align="center">
+<img src="https://imgur.com/rOYfy1p.png" alt="drawing" width="700"/>
+</p>
+
+## User Interface
+
+<p align="center">
+<img src="https://i.imgur.com/Y23VDEK.png" alt="drawing" width="700"/>
+</p>
+
+## Usage
+
+This project is intend to use with [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO), to [Tiva-C](https://www.ti.com/tool/EK-TM4C123GXL?utm_source=google&utm_medium=cpc&utm_campaign=epd-null-null-prodfolderdynamic-cpc-pf-google-wwe_int&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gclid=Cj0KCQiA_bieBhDSARIsADU4zLe4EC0d31GO48MGUNpbr3e5-KMYJV8Ui7qZ0HeW3qAOminWc6kiey0aAsx3EALw_wcB&gclsrc=aw.ds) firmware development, and [LabVIEW](https://www.ni.com/pt-br/support/downloads/software-products/download.labview.html#460283) to user interface program.
+
+## Support:
+If you want some help with this work contact me: guilherme.turatto@gmail.com
+
+More information about the project: https://repositorio.ufsc.br/handle/123456789/243281
