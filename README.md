@@ -22,7 +22,7 @@ The diagram below shows the communications and signals present in the experiment
 * #### Use Case
 
 <p align="center">
-<img src="https://imgur.com/qEGRoH0.png" alt="drawing" width="500">   <img src="https://imgur.com/g2qIJmG.png" alt="drawing" width="500">
+<img src="https://imgur.com/qEGRoH0.png" alt="drawing" width="600">   <img src="https://imgur.com/g2qIJmG.png" alt="drawing" width="600">
 </p>
 
 * #### Class Diagram (Firmware Tiva-C)
@@ -34,7 +34,7 @@ The diagram below shows the communications and signals present in the experiment
 ## User Interface
 
 <p align="center">
-<img src="https://i.imgur.com/Y23VDEK.png" alt="drawing" width="700"/>
+<img src="https://i.imgur.com/Y23VDEK.png" alt="drawing" width="500"/>
 </p>
 
 ## Usage
