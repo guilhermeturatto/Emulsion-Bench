@@ -41,7 +41,7 @@ The diagram below shows the communications and signals present in the experiment
 
 This project is intend to use with [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO), to [Tiva-C](https://www.ti.com/tool/EK-TM4C123GXL?utm_source=google&utm_medium=cpc&utm_campaign=epd-null-null-prodfolderdynamic-cpc-pf-google-wwe_int&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gclid=Cj0KCQiA_bieBhDSARIsADU4zLe4EC0d31GO48MGUNpbr3e5-KMYJV8Ui7qZ0HeW3qAOminWc6kiey0aAsx3EALw_wcB&gclsrc=aw.ds) firmware development, and [LabVIEW](https://www.ni.com/pt-br/support/downloads/software-products/download.labview.html#460283) to user interface program.
 
-## Support:
+## Support
 If you want some help with this work contact me: guilherme.turatto@gmail.com
 
 More information about the project: https://repositorio.ufsc.br/handle/123456789/243281
