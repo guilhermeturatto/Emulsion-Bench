@@ -3,6 +3,8 @@
 This project is about the control and monitoring of an experimental bench for studies of emulsions between water and crude oil at the
 [T2F (Thermal Flow Fluid Group)](https://t2f.ufsc.br/eng/index_eng.html) laboratory of [UFSC (Universidade Federal de Santa Catarina)](https://en.ufsc.br/). 
 
+You can find the complete project at the following link: https://repositorio.ufsc.br/handle/123456789/243281
+
 <p align="center">
 <img src="https://i.imgur.com/esLbaOC.png" alt="drawing" width="1000"/>
 </p>
